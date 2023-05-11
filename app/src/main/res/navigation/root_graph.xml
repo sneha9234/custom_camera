@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.customcamera.ui.HomeFragment"
+        android:label="NewHomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_navigation_homeFragment_to_captureSingleImageFragment"
+            app:destination="@id/captureSingleImageFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/captureSingleImageFragment"
+        android:name="com.example.customcamera.ui.CaptureSingleImageFragment"
+        android:label="CaptureSingleImageFragment"
+        tools:layout="@layout/fragment_capture_single_image">
+
+        <action
+            android:id="@+id/action_navigation_captureSingleImageFragment_to_captureMultipleImageFragment"
+            app:destination="@id/captureMultipleImageFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/captureMultipleImageFragment"
+        android:name="com.example.customcamera.ui.CaptureMultipleImageFragment"
+        android:label="CaptureMultipleImageFragment"
+        tools:layout="@layout/fragment_capture_multiple_image"/>
+
+</navigation>

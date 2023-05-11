@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Custom Camera</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_email">Enter Email Id</string>
+    <string name="take_test">Take Test</string>
+    <string name="enter_valid_warning">Enter Valid Name and Email Id</string>
+    <string name="capturing_single_image">Capturing Single Image</string>
+    <string name="permissions_granted">Permissions granted</string>
+    <string name="capturing_multiple_image">Capturing Multiple Images</string>
+    <string name="capturing_image_for_exposure">Capturing Image for Exposure: %s</string>
+    <string name="sending_message">Sending Image</string>
+    <string name="test_done">Test Done</string>
+    <string name="test_failed">Test Failed</string>
+    <string name="permission_required">Permission required</string>
+</resources>
